@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+}
+
+header{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #00000066;
+}
+
+h1, p, th, td{
+    color: white;
+    text-shadow: -1px -1px 1px black;
+}
+
+#titulo{
+    font-size: 60px;
+}
+
+.texto{
+    padding: 100px 50px;
+    background-image: linear-gradient(#00000066, #ffffff4d);
+    font-size: 18px;
+}
+
+table{
+    padding: 0px 50px 60px 300px;
+    background-color: #ffffff4d;
+    color: white;
+    width: 100%;
+    
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 6px 10px;
+}
+
+td{
+    text-align: center;
+
+}
+
+.mascote{
+    position: fixed;
+    width: 200px;
+    left: 50px;
+    bottom: 60px;
+}
